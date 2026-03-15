@@ -17,32 +17,38 @@ const ReasonsPage: React.FC<ReasonsPageProps> = ({ onNext }) => {
   const [reasons, setReasons] = useState<Reason[]>([
     {
       id: 1,
-      title: 'I wish.. ',
-      text: 'I wish, semua hal yang akan atau sedang kamu lakuin dipermudah',
+      title: 'The Way You Say “Adek”',
+      text: 'Cara abang manggil “adek” always sounds so soft… it makes my heart melt every time.',
       isRevealed: false
     },
     {
       id: 2,
-      title: 'I wish..',
-      text: 'I wish, kamu selalu dikeliling hal-hal baik dan dijauhkan dari segala yang buruk',
+      title: 'Your Effort',
+      text: 'Even when life gets hard, abang still tries. And adek always notice every little effort you make.',
       isRevealed: false
     },
     {
       id: 3,
-      title: 'I wish..',
-      text: ' I wish, kamu makin sayang sama aku. Makin sabar sama sikap dan tingkah aku dan makin dewasa',
+      title: 'Your Care',
+      text: 'Cara abang nanya “adek udah makan belum?” may sound simple, but it always makes adek feel loved.',
       isRevealed: false
     },
     {
       id: 4,
-      title: 'I wish..',
-      text: 'Aku harap kamu selalu bahagia, entah dengan cara apapun baik sama aku atau pun gak sama aku',
+      title: 'Your Presence',
+      text: 'Sometimes abang gak perlu ngapa-ngapain. Just knowing you’re here already makes adek feel safe.',
       isRevealed: false
     },
     {
       id: 5,
-      title: 'I wish..',
-      text: 'Dan aku sangat berharap kamu selalu dikasih kekuatan buat ngehadapin segala ujian yang akan datang atau sedang kamu hadapi',
+      title: 'The Man You’re Becoming',
+      text: 'Seeing abang grow every year makes adek proud. Adek yakin abang akan jadi seseorang yang luar biasa.',
+      isRevealed: false
+    },
+      {
+      id: 6,
+      title: 'Your Birthday',
+      text: 'Today is special because the man adek loves was born. Happy birthday, abang 🤍',
       isRevealed: false
     }
   ]);
@@ -64,11 +70,11 @@ const ReasonsPage: React.FC<ReasonsPageProps> = ({ onNext }) => {
     <div className="text-center space-y-4 sm:space-y-6 px-4">
       <div className="space-y-4">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold gradient-text leading-relaxed">
-          My wish for You
+          Reasons Why I love You
         </h2>
 
         <p className="text-base sm:text-lg md:text-xl text-blue-600 font-medium">
-          Tap each heart to reveal my wishes.
+          Tap each heart to reveal my reasons.
         </p>
       </div>
 
