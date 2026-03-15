@@ -16,21 +16,21 @@ interface PolaroidItem {
 const polaroids: PolaroidItem[] = [
   {
     id: 1,
-    image: 'https://files.catbox.moe/utgqfg.jpg',
+    image: 'https://files.catbox.moe/1pa76a.jpg',
     song: 'Senja Sudut Kota',
     artist: 'Samuel Cipta',
     audio: 'https://files.catbox.moe/hde6rr.mp3'
   },
   {
     id: 2,
-    image: 'https://files.catbox.moe/nodi0u.jpg',
+    image: 'https://files.catbox.moe/xvkaxu.jpg',
     song: 'Kota Ini Tak Sama Tanpamu',
     artist: 'Nadhif Basamalah',
     audio: 'https://files.catbox.moe/zkuvy0.mp4'
   },
   {
     id: 3,
-    image: 'https://files.catbox.moe/4bqiez.jpg',
+    image: 'https://files.catbox.moe/ut60w1.jpg',
     song: 'Everything U Are',
     artist: 'Hindia',
     audio: 'https://files.catbox.moe/29qkzp.mp3'
@@ -41,16 +41,27 @@ const SecretLetterPage: React.FC<SecretLetterPageProps> = ({ onBackToStart }) =>
   const [displayedText, setDisplayedText] = useState('');
   const [showFinalMessage, setShowFinalMessage] = useState(false);
 
-  const fullText = `Happy birthday to You!! 
-  
-First, thank you for your time buat buka gift sederhana dari aku ini (and i hope u like it hehe). I just wanna say, happy birthday buat cantikku yang hebat, keren.. aku mau mintaa maaf ya sayangg karena habis kecelakaan aku jadi jarang ada waktu buat kamu, terus suka ilang-ilang dan susah buat luangin waktu apalagi sleepcall sama kamu karena sibuk juga. aku benerann mintaa yaaa, terus juga maaff karena aku telat kasii gift buat kamu ;(
+  const fullText = `Happy birthday, abang 🤍
+Hari ini hari spesialnya abang.. tapi jujur aja, adek juga ikut merasa hari ini spesial banget. Karena hari ini adalah hari dimana someone very important in adek’s life was born.
 
-Then, i wanna say thank you for everything u did to me, it means a lot to me fr. makasihh udah mau nge-treat aku sebaik ituu, makasih udah mau dengerin semua keluh kesah aku, cerita random aku. aku jugaa makasih banget selama ini kamu selalu sabar sama aku, jarang marah intinya u treated me like a princess. thank you, sayang.
+Abang tau gak? Kadang adek suka mikir, dari sekian banyak orang di dunia ini… lucu aja rasanya kalau akhirnya adek bisa kenal abang, bisa dekat sama abang, dan bisa sayang sama abang seperti sekarang.
 
-And bcs it's your special day, aku harap semua keinginan kamu terwujud satu persatu, terus selalu dikelilingi sama hal-hal baik dan dijauhin dari yang jahat-jahat. Semua goals atau impian kamu bisa tercapai dan sukses untuk semua hal yang sedang kamu upayakan sekarang dan yang akan datang. thenn, i just wanna say that kamu gak sendirian, kamu harus percaya kalau kamu selalu dikelilingi orang-orang yang sayang sama kamu, utamanya aku yang selalu disini buat tempat kamu pulang. bahagia terus yaa sayang, jangan sedih-sedihh, jangan capek-capek jugaa.. semoga setiap masalah yang kamu hadapi selalu diberi jalan keluar dan dipermudah. 
+You may not realize it, tapi banyak hal kecil dari abang yang selalu bikin adek senyum sendiri. Cara abang manggil “adek”, cara abang perhatian, bahkan cara abang kadang ngeselin juga tetap bikin adek gemes.
 
-Happy birthday Febri. 
-With all my heart, Aull.`;
+And honestly… abang punya cara sendiri buat bikin adek merasa special, tanpa abang harus berusaha terlalu keras.
+
+Di umur abang yang baru ini, adek cuma mau doain yang terbaik. Semoga abang selalu sehat, rezekinya makin lancar, semua hal yang abang impikan bisa pelan-pelan tercapai.
+
+But more than that… adek harap abang tetap jadi abang yang adek kenal. Yang hangat, yang kadang random, yang kadang bikin adek kesel tapi tetap bikin adek sayang.
+
+Thank you for being someone who stays in adek’s life. Thank you for making adek feel this happy.
+
+So today, let adek say this a little more honestly… Happy birthday to the man who secretly makes my heart softer every day.
+
+Semoga di ulang tahun abang yang sekarang, abang merasa disayang, dihargai, dan diingat… sama adek.
+
+Enjoy your day, abang.
+And don’t forget… adek sayang abang 🤍`;
 
   useEffect(() => {
     let currentIndex = 0;
